@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\WF\LDP\LDP\publish\LDP</_PublishTargetUrl>
+    <History>True|2023-06-15T04:34:51.3155555Z;True|2023-06-13T02:46:52.6496641-07:00;True|2023-06-13T01:56:36.1195439-07:00;True|2023-06-06T02:24:47.8303510-07:00;True|2023-06-05T22:21:47.6454692-07:00;True|2023-06-05T04:49:52.6057720-07:00;True|2023-06-03T01:27:20.2066904-07:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

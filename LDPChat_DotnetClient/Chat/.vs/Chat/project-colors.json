@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d76c8229-0239-473a-a701-750b3241f6d7": {
+      "ProjectGuid": "d76c8229-0239-473a-a701-750b3241f6d7",
+      "DisplayName": "Chat",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

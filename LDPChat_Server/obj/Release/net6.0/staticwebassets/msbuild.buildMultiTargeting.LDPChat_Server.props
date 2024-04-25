@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\LDPChat_Server.props" />
+</Project>

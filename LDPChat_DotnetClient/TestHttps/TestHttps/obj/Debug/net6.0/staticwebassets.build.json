@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Q6gM1gjmYq1ESs8zZG+/cMY1uZvQsY83fJ5z5NgC910=",
+  "Source": "TestHttps",
+  "BasePath": "_content/TestHttps",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

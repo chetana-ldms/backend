@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\LDP\publish\RuleEngine</_PublishTargetUrl>
+    <History>True|2023-02-08T04:06:58.2920448Z;True|2023-02-07T23:05:47.5148889-05:00;True|2023-01-10T01:43:16.5338565-05:00;True|2023-01-08T23:30:13.2648105-05:00;True|2022-12-29T03:07:39.3283275-05:00;</History>
+  </PropertyGroup>
+</Project>

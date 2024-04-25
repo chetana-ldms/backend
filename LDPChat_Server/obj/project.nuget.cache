@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZgvZIZ9NGsiRzMNm8c6WXrRzlvWEfYChI5qjyQ7h2BlB15OqKq53E84p2cYJBTjLPVP6IXGXo5+u3b/LIq28VQ==",
+  "success": true,
+  "projectFilePath": "C:\\WF\\LDP\\LDP\\src\\LDP\\LDPChat_Server\\LDPChat_Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Arunachalam\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Arunachalam\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Arunachalam\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Arunachalam\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Arunachalam\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Arunachalam\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

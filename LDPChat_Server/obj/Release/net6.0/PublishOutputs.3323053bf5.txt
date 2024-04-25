@@ -1,0 +1,11 @@
+C:\LDP\src\LDP\LDPChat_Server\obj\Release\net6.0\PubTmp\Out\LDPChat_Server.exe
+C:\LDP\src\LDP\LDPChat_Server\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\LDP\src\LDP\LDPChat_Server\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\LDP\src\LDP\LDPChat_Server\obj\Release\net6.0\PubTmp\Out\LDPChat_Server.dll
+C:\LDP\src\LDP\LDPChat_Server\obj\Release\net6.0\PubTmp\Out\LDPChat_Server.deps.json
+C:\LDP\src\LDP\LDPChat_Server\obj\Release\net6.0\PubTmp\Out\LDPChat_Server.runtimeconfig.json
+C:\LDP\src\LDP\LDPChat_Server\obj\Release\net6.0\PubTmp\Out\LDPChat_Server.pdb
+C:\LDP\src\LDP\LDPChat_Server\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\LDP\src\LDP\LDPChat_Server\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\LDP\src\LDP\LDPChat_Server\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\LDP\src\LDP\LDPChat_Server\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

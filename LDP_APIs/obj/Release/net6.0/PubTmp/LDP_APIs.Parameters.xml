@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="LDC_APIs" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\WF\\LDP\\LDP\\src\\LDP\\LDP_APIs\\obj\\Release\\net6\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

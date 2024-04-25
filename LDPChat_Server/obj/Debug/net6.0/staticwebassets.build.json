@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "hzdADKed1PADrb3Q8zq8s/kZnop36T3z8yWc8p25bm0=",
+  "Source": "LDPChat_Server",
+  "BasePath": "_content/LDPChat_Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\WF\LDP\LDP\publish\LDCJobs</_PublishTargetUrl>
+    <History>True|2023-10-25T13:14:00.0394044Z;True|2023-10-15T20:44:04.4473999-07:00;True|2023-09-15T10:01:11.7379809-07:00;True|2023-09-08T03:47:07.5940799-07:00;True|2023-09-06T06:07:05.4811421-07:00;True|2023-08-30T07:48:58.9226445-07:00;True|2023-08-30T06:38:34.0379713-07:00;True|2023-08-30T04:35:45.4832341-07:00;True|2023-08-30T02:59:13.0763023-07:00;True|2023-08-30T02:10:43.9130900-07:00;True|2023-08-30T01:03:26.8876294-07:00;True|2023-08-28T08:13:51.2381570-07:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

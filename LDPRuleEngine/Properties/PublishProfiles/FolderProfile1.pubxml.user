@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\WF\LDP\LDP\publish\RuleEngine</_PublishTargetUrl>
+    <History>True|2023-08-01T10:48:13.3975408Z;True|2023-08-01T03:47:30.0562641-07:00;True|2023-07-24T03:01:42.0819553-07:00;True|2023-07-24T02:56:14.7636530-07:00;True|2023-07-24T02:54:55.7627358-07:00;True|2023-07-24T02:45:20.8786311-07:00;True|2023-06-08T06:53:30.0197549-07:00;True|2023-06-05T07:22:21.8725574-07:00;True|2023-03-26T03:24:32.9866123-07:00;True|2023-03-25T23:05:20.9122281-07:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

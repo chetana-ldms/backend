@@ -1,0 +1,131 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="BL\AlertsBL.cs" />
+    <Compile Remove="BL\APIRequests\AlertsRequest.cs" />
+    <Compile Remove="BL\APIRequests\AuthenticateUserRequest.cs" />
+    <Compile Remove="BL\APIRequests\baseRequest.cs" />
+    <Compile Remove="BL\APIRequests\GetUsersRequest.cs" />
+    <Compile Remove="BL\APIRequests\LDPMasterDataRequest.cs" />
+    <Compile Remove="BL\APIRequests\LDPToolRequest.cs" />
+    <Compile Remove="BL\APIRequests\OrganizationRequest.cs" />
+    <Compile Remove="BL\APIRequests\OrganizationToolsRequest.cs" />
+    <Compile Remove="BL\APIRequests\RoleRequest.cs" />
+    <Compile Remove="BL\APIRequests\UserRequest.cs" />
+    <Compile Remove="BL\APIResponse\AuthicateUserResponse.cs" />
+    <Compile Remove="BL\APIResponse\baseResponse.cs" />
+    <Compile Remove="BL\APIResponse\ErrorResponse.cs" />
+    <Compile Remove="BL\APIResponse\GetRolesResponse.cs" />
+    <Compile Remove="BL\APIResponse\GetUsersResponse.cs" />
+    <Compile Remove="BL\APIResponse\LDPMasterDataResponse.cs" />
+    <Compile Remove="BL\APIResponse\LDPToolResponse.cs" />
+    <Compile Remove="BL\APIResponse\LDPToolsResponse.cs" />
+    <Compile Remove="BL\APIResponse\OrganizationResponse.cs" />
+    <Compile Remove="BL\APIResponse\OrganizationTools.cs" />
+    <Compile Remove="BL\APIResponse\UserResponse.cs" />
+    <Compile Remove="BL\Factories\TicketManagementFactory.cs" />
+    <Compile Remove="BL\IncidentManagementBL.cs" />
+    <Compile Remove="BL\Interfaces\IAlertsBL.cs" />
+    <Compile Remove="BL\Interfaces\IIncidentManagementBL.cs" />
+    <Compile Remove="BL\Interfaces\IIncidentManagementService.cs" />
+    <Compile Remove="BL\Interfaces\ILDPSecurityBL.cs" />
+    <Compile Remove="BL\Interfaces\IQRadarIntegrationBL.cs" />
+    <Compile Remove="BL\Interfaces\IQRadarIntegrationservice.cs" />
+    <Compile Remove="BL\Interfaces\LDPlattformBL.cs" />
+    <Compile Remove="BL\LDPlattformBL.cs" />
+    <Compile Remove="BL\LDPSecurityBL.cs" />
+    <Compile Remove="BL\Mappers\AlertMapper.cs" />
+    <Compile Remove="BL\Mappers\LDPMasterDataMapper.cs" />
+    <Compile Remove="BL\Mappers\LDPToolsMapper.cs" />
+    <Compile Remove="BL\Mappers\OganizationToolsMapper.cs" />
+    <Compile Remove="BL\Mappers\OrganizationMapper.cs" />
+    <Compile Remove="BL\Mappers\QRadarAlertsMapper.cs" />
+    <Compile Remove="BL\Mappers\RoleMapper.cs" />
+    <Compile Remove="BL\Mappers\ToolActionsMapper.cs" />
+    <Compile Remove="BL\Mappers\ToolTypeActionMapper.cs" />
+    <Compile Remove="BL\Mappers\UserMapping.cs" />
+    <Compile Remove="BL\Models\AlertModel.cs" />
+    <Compile Remove="BL\Models\CreateIncidentDTO.cs" />
+    <Compile Remove="BL\Models\CreateIncidentRequest.cs" />
+    <Compile Remove="BL\Models\FreeDeskIncidentDtls.cs" />
+    <Compile Remove="BL\Models\GetOffenseDTO.cs" />
+    <Compile Remove="BL\Models\GetOffenseRequest.cs" />
+    <Compile Remove="BL\Models\getOffenseResponse.cs" />
+    <Compile Remove="BL\Models\LDPMasterData.cs" />
+    <Compile Remove="BL\Models\LDPTool.cs" />
+    <Compile Remove="BL\Models\OrganizationModel.cs" />
+    <Compile Remove="BL\Models\OrganizationTools.cs" />
+    <Compile Remove="BL\Models\QRadaroffense.cs" />
+    <Compile Remove="BL\Models\RequestPaging.cs" />
+    <Compile Remove="BL\Models\RoleModel.cs" />
+    <Compile Remove="BL\Models\UserModel.cs" />
+    <Compile Remove="BL\QRadarIntegrationBL.cs" />
+    <Compile Remove="DAL\DataContext\AlertsDataContext.cs" />
+    <Compile Remove="DAL\DataContext\LDPlattformDataContext.cs" />
+    <Compile Remove="DAL\DataContext\LDPSecurityDataContext.cs" />
+    <Compile Remove="DAL\Entities\Alerts.cs" />
+    <Compile Remove="DAL\Entities\LDFMasterData.cs" />
+    <Compile Remove="DAL\Entities\LDPTool.cs" />
+    <Compile Remove="DAL\Entities\Organizations.cs" />
+    <Compile Remove="DAL\Entities\OrganizationTools.cs" />
+    <Compile Remove="DAL\Entities\Role.cs" />
+    <Compile Remove="DAL\Entities\UserDtls.cs" />
+    <Compile Remove="DAL\Interfaces\IAlertsRepository.cs" />
+    <Compile Remove="DAL\Interfaces\ILDPlattformRepository.cs" />
+    <Compile Remove="DAL\Interfaces\ILDPSecurityRepository.cs" />
+    <Compile Remove="DAL\Respository\AlertsRepository.cs" />
+    <Compile Remove="DAL\Respository\LDPlattformRepository.cs" />
+    <Compile Remove="DAL\Respository\LDPSecurityRepository.cs" />
+    <Compile Remove="Helpers\ExceptionMiddleware.cs" />
+    <Compile Remove="Services\FreshDesk_IncidentManagementService.cs" />
+    <Compile Remove="Services\IncidentManagementService.cs" />
+    <Compile Remove="Services\QRadarIntegrationservice.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="DinkToPdf" Version="1.0.8" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.2" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.5.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Bot.Connector" Version="4.19.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.11" />
+    <PackageReference Include="Microsoft.Graph" Version="5.9.0" />
+    <PackageReference Include="MySql.EntityFrameworkCore" Version="6.0.7" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
+    <PackageReference Include="System.Runtime" Version="4.3.1" />
+    <PackageReference Include="Twilio" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LDP.Common\LDP.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="BL\Factories\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="EmailTemplates\NewTaskCreation.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="EmailTemplates\NewUserAccountTemplate.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="EmailTemplates\PasswordResetTemplate.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

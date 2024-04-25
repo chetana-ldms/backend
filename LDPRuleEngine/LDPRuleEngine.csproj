@@ -1,0 +1,107 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="BL\AlertPlayBookProcessBL.cs" />
+    <Compile Remove="BL\Framework\Actions\baseRuleActionExecuter.cs" />
+    <Compile Remove="BL\Framework\Actions\baseRuleActionRequest.cs" />
+    <Compile Remove="BL\Framework\Actions\BaseRuleActionResponse.cs" />
+    <Compile Remove="BL\Framework\Actions\RuleActionExecuter.cs" />
+    <Compile Remove="BL\Framework\Actions\RuleActonExecuterFactory.cs" />
+    <Compile Remove="BL\Framework\Actions\TicketManagementRuleActionExecuter.cs" />
+    <Compile Remove="BL\Framework\Constants.cs" />
+    <Compile Remove="BL\Framework\EqualsRuleTypeExecuter.cs" />
+    <Compile Remove="BL\Framework\RegexPatternsRuleTypeExecuter.cs" />
+    <Compile Remove="BL\Framework\RuleConditionTypeFactory.cs" />
+    <Compile Remove="BL\Framework\TextContainsRuleTypeExecuter.cs" />
+    <Compile Remove="BL\Interfaces\IPlaybookBL.cs" />
+    <Compile Remove="BL\Interfaces\IPlaybookdtlsBL .cs" />
+    <Compile Remove="BL\Interfaces\IRuleActionBL.cs" />
+    <Compile Remove="BL\Interfaces\IRuleActionExecuter.cs" />
+    <Compile Remove="BL\Interfaces\IRuleExecuter.cs" />
+    <Compile Remove="BL\Interfaces\IRulesConfigurationBL.cs" />
+    <Compile Remove="BL\Interfaces\IRuleTypeExecuter.cs" />
+    <Compile Remove="BL\Mappers\PalyBookMapper.cs" />
+    <Compile Remove="BL\Mappers\PlayBookDtlsMapper.cs" />
+    <Compile Remove="BL\Mappers\RuleActionMapper.cs" />
+    <Compile Remove="BL\Mappers\RuleConditionsMapper.cs" />
+    <Compile Remove="BL\Mappers\RuleConditionValuesMapper.cs" />
+    <Compile Remove="BL\Mappers\RuleEngineMasterDataMapper.cs" />
+    <Compile Remove="BL\Mappers\RuleMapper.cs" />
+    <Compile Remove="BL\Models\PlayBookDtlsModel.cs" />
+    <Compile Remove="BL\Models\PlayBookModel.cs" />
+    <Compile Remove="BL\Models\RuleActionModel.cs" />
+    <Compile Remove="BL\Models\RuleConditionModel.cs" />
+    <Compile Remove="BL\Models\RuleConditionValueModel.cs" />
+    <Compile Remove="BL\Models\RuleModel.cs" />
+    <Compile Remove="BL\Models\RulesEngineMasterDataModel.cs" />
+    <Compile Remove="BL\PlayBookBL.cs" />
+    <Compile Remove="BL\PlayBookdtlsBL.cs" />
+    <Compile Remove="BL\RuleActionBL.cs" />
+    <Compile Remove="BL\RulesConfigurationBL.cs" />
+    <Compile Remove="Controllers\Requests\ExecuteRuleRequest.cs" />
+    <Compile Remove="Controllers\Requests\ExecuteRuleTypeRequest.cs" />
+    <Compile Remove="Controllers\Requests\PlayBookRequest.cs" />
+    <Compile Remove="Controllers\Requests\RuleActionRequest.cs" />
+    <Compile Remove="Controllers\Requests\RuleRequest.cs" />
+    <Compile Remove="Controllers\Responses\ExecuteRuleResponse.cs" />
+    <Compile Remove="Controllers\Responses\ExecuteRuleTypeResponse.cs" />
+    <Compile Remove="Controllers\Responses\GetRuleActionResponse.cs" />
+    <Compile Remove="Controllers\Responses\MasterDataResponse.cs" />
+    <Compile Remove="Controllers\Responses\PlayBookResponse.cs" />
+    <Compile Remove="Controllers\Responses\RuleResponse.cs" />
+    <Compile Remove="DAL\DataContexts\RuleEngineDataContext.cs" />
+    <Compile Remove="DAL\Entities\PlayBook.cs" />
+    <Compile Remove="DAL\Entities\PlayBookDtls.cs" />
+    <Compile Remove="DAL\Entities\Rule.cs" />
+    <Compile Remove="DAL\Entities\RuleActiion.cs" />
+    <Compile Remove="DAL\Entities\RuleCondition.cs" />
+    <Compile Remove="DAL\Entities\RuleConditionValue.cs" />
+    <Compile Remove="DAL\Entities\RulesEngineMasterData.cs" />
+    <Compile Remove="DAL\Interfaces\IPlayBookDtlsRepository.cs" />
+    <Compile Remove="DAL\Interfaces\IPlayBookRepository.cs" />
+    <Compile Remove="DAL\Interfaces\IRuleActionRespository.cs" />
+    <Compile Remove="DAL\Interfaces\IRuleEngineRepository.cs" />
+    <Compile Remove="DAL\Repositories\PlayBookDtlsRepository.cs" />
+    <Compile Remove="DAL\Repositories\PlayBookRepository.cs" />
+    <Compile Remove="DAL\Repositories\RuleActionRespository.cs" />
+    <Compile Remove="DAL\Repositories\RuleEngineRepository.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.2" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.11" />
+    <PackageReference Include="MySql.EntityFrameworkCore" Version="6.0.7" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LDP.Common\LDP.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="BL\Framework\Actions\Models\" />
+    <Folder Include="BL\Framework\Playbooks\" />
+    <Folder Include="BL\Framework\Rules\" />
+    <Folder Include="BL\Interfaces\" />
+    <Folder Include="BL\Mappers\" />
+    <Folder Include="BL\Models\" />
+    <Folder Include="Controllers\Requests\" />
+    <Folder Include="Controllers\Responses\" />
+    <Folder Include="DAL\DataContexts\" />
+    <Folder Include="DAL\Entities\" />
+    <Folder Include="DAL\Interfaces\" />
+    <Folder Include="DAL\Repositories\" />
+  </ItemGroup>
+
+</Project>
